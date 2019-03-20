@@ -9033,5 +9033,5 @@ const $tbody = document.getElementById('results');
 
 $tbody.innerHTML = nonAutomaticIssues.map(issue => 
   `<tr>
-    <td></td>`)
+    <td>${issue.body}</td>`)
 
