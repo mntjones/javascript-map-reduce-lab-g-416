@@ -9014,7 +9014,7 @@ const commentCountAcrossIssues = issues.map(issue => {
 
 const openIssues = issues.reduce((openIssues, issue) => {
   if (issue.state == 'open') {
-    
+    return [...openIssues, ]
   }
 });
 
