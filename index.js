@@ -9020,12 +9020,12 @@ const openIssues = issues.reduce((openIssues, issue) => {
 }, []);
 
 
-const nonAutomaticIssues = issues.reduce((nonAutomaticIssues, issue) => {
+const nonAutomaticIssues = issues.reduce((manualIssues, issue) => {
   const isAutomatic = issues.body.includes("automatically");
   
   if (!isAutomatic) {
-    nonAutomaticIssues.push(issue);
+    manualIssues.push(issue);
   }
-  return nonAutomaticIssues;
+  return manualIssues;
 }, []);
 
