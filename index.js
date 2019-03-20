@@ -9032,5 +9032,6 @@ const nonAutomaticIssues = issues.reduce((manualIssues, issue) => {
 const $tbody = document.getElementById('results');
 
 $tbody.innerHTML = nonAutomaticIssues.map(issue => 
-  '<tr>')
+  `<tr>
+    <td></td>`)
 
