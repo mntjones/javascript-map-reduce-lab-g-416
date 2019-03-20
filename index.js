@@ -9012,7 +9012,7 @@ const commentCountAcrossIssues = issues.map(issue => {
 }).reduce((acc,cv) => acc + cv, 0);
 
 
-const openIssues = issues.map(issue => {
+const openIssues = issues.reduce((openIssues, issue) => {
   
 });
 
