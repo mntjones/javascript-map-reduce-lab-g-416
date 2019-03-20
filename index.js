@@ -9021,7 +9021,7 @@ const openIssues = issues.reduce((openIssues, issue) => {
 
 
 const nonAutomaticIssues = issues.reduce((manualIssues, issue) => {
-  const isAutomatic = issues.body.includes("automatically created by learn co.");
+  const isAutomatic = issues.body.includes("automatically created by learn.co");
   
   if (!isAutomatic) {
     manualIssues.push(issue);
