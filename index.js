@@ -9034,6 +9034,6 @@ const $tbody = document.getElementById('results');
 $tbody.innerHTML = nonAutomaticIssues.map(issue => 
   `<tr>
     <td>${issue.body}</td>
-    <td>${issue.body}</td>
-    <td>${issue.body}</td>`)
+    <td>${issue.created_at}</td>
+    <td>${issue.date}</td>`)
 
