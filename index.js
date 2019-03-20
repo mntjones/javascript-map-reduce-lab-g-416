@@ -9013,7 +9013,7 @@ const commentCountAcrossIssues = issues.map(issue => {
 
 
 const openIssues = issues.map(issue => {
-  const isOpen = issues.
+  
 });
 
 
