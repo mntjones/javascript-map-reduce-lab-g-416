@@ -9023,6 +9023,8 @@ const openIssues = issues.reduce((openIssues, issue) => {
 const nonAutomaticIssues = issues.reduce((nonAutomaticIssues, issue) => {
   const isAutomatic = issues.body.includes("automatically");
   
-  
+  if (!isAutomatic) {
+    
+  }
 })
 
