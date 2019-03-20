@@ -9029,5 +9029,5 @@ const nonAutomaticIssues = issues.reduce((manualIssues, issue) => {
   return manualIssues;
 }, []);
 
-const $tbody
+const $tbody = document.get
 
